@@ -1,0 +1,32 @@
+const root=document.getElementById('root');
+root.innerHTML=10;
+setTimeout(()=>{
+    root.innerHTML=9;
+    setTimeout(()=>{
+        root.innerHTML=8;
+        setTimeout(()=>{
+            root.innerHTML=7;
+            setTimeout(()=>{
+                root.innerHTML=6;
+                setTimeout(()=>{
+                    root.innerHTML=5;
+                    setTimeout(()=>{
+                        root.innerHTML=4;
+                        setTimeout(()=>{
+                            root.innerHTML=3;
+                            setTimeout(()=>{
+                                root.innerHTML=2;
+                                setTimeout(()=>{
+                                    root.innerHTML=1;
+                                    setTimeout(()=>{
+                                        root.innerHTML="Happy Independence Day";
+                                    },1000)
+                                },1000)
+                            },1000)
+                        },1000)
+                    },1000)
+                },1000)
+            },1000)
+        },1000)
+    },1000)
+},1000)
